@@ -17,6 +17,6 @@ FUCKING WORKING SERVLET-2
 <p>
 <a href="page2">∆ми скорей сюда:-)</a>
 </p>
-<img src="<%=request.getContextPath()%>/king.jpg"/>
+<img src="<%=request.getContextPath()%>/images/king.jpg"/>
 </body>
 </html>

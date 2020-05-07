@@ -27,4 +27,17 @@
         <servlet-name>data</servlet-name>
         <url-pattern>/page2</url-pattern>>
     </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>images</servlet-name>
+        <servlet-class>ru.itpark.ImageServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>images</servlet-name>
+        <url-pattern>/images/*</url-pattern>
+    </servlet-mapping>
+
 </web-app>
